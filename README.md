@@ -26,16 +26,16 @@ In the example i use an existing tool `dotnet-mergenupkg`, but is not special
 
 User flow
 
-- dotnet restore3 tools.toolsproj
+- `dotnet restore3 tools.toolsproj`
     restore just the project with tools. extension doesnt matter, but suffix must be `proj`
-- dotnet mergenupkg
+- `dotnet mergenupkg`
     run the tool
 
 So ideally to bootstrap Paket
 
-- dotnet restore3 tools.toolsproj
+- `dotnet restore3 tools.toolsproj`
     restore just the project with tools. extension doesnt matter, but suffix must be `proj`
-- dotnet paket
+- `dotnet paket`
     run Paket
 
 You can also run `dotnet paket` from targets file.
