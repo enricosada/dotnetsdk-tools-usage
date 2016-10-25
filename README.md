@@ -17,7 +17,7 @@ And Restore.
 After that, is avaiabile as `dotnet mytool` from the same directory
 
 
-## Paket boostrapper
+## Paket bootstrapper
 
 Ideas is, use a msbuild project with all the tools for repo.
 For example Paket but can be others (for docs, fake, etc)
